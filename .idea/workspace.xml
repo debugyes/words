@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c1063c8-67ba-44fa-94e2-fb326aedc2d9" name="Default Changelist" comment="" />
+    <list default="true" id="9c1063c8-67ba-44fa-94e2-fb326aedc2d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +18,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1f5915SVjFdJfLqnSbCnFh9DwoC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -141,7 +151,7 @@
       <workItem from="1595830182231" duration="4342000" />
       <workItem from="1595904413273" duration="1889000" />
       <workItem from="1596179231140" duration="281000" />
-      <workItem from="1596340405295" duration="4641000" />
+      <workItem from="1596340405295" duration="6227000" />
     </task>
     <servers />
   </component>
@@ -193,6 +203,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="512" y="240" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1595558114448" />
+    <state x="818" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596346885695">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="818" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1596346885695" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1596344496247">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

@@ -1,7 +1,6 @@
 import xlrd
 import xlwt
 from xlutils.copy import copy
-import os
 import datetime
 import time
 import random
@@ -21,9 +20,11 @@ if key == answer:
 
 # 英译中模式
 def entozh():
-    #初始化目标工作簿
+    # 初始化目标工作簿
     wb = xlrd.open_workbook("words.xlsx")
     sh1 = wb.sheet_by_name("词组")
+    # 创建错题数组
+    wrong = []
 
     print("1.正序\n2.随机")
     choose = input("请选择:")
@@ -39,11 +40,32 @@ def entozh():
                 print("正确")
                 row += 1
             else:
+                wrong.append(row)
                 answer = input("错误,请再试一次：")
                 while answer.strip() not in key:
                     answer = input("错误,请再试一次：")
                 print("正确")
                 row += 1
+        if len(wrong) != 0:
+            # 错题订正
+            count = 1
+            while count <= len(wrong):
+                rows = wrong[count]
+                title = sh1.cell_value(rows, 1)
+                print("词组:" + title)
+                keys = sh1.cell_value(rows, 0)
+                answer = input("答案:")
+                if keys == answer:
+                    print("正确")
+                    rows += 1
+                else:
+                    wrong.append(rows)
+                    answer = input("错误,请再试一次：")
+                    while answer != keys:
+                        answer = input("错误,请再试一次：")
+                    print("正确")
+                    rows += 1
+
     else:
         serial = []
         count = 0
@@ -65,20 +87,42 @@ def entozh():
                 print("正确")
                 count += 1
             else:
+                wrong.append(row)
                 answer = input("错误,请再试一次：")
                 while answer not in key:
                     answer = input("错误,请再试一次：")
                 print("正确")
                 count += 1
+        if len(wrong) != 0:
+            # 错题订正
+            count = 1
+            while count <= len(wrong):
+                rows = wrong[count]
+                title = sh1.cell_value(rows, 1)
+                print("词组:" + title)
+                keys = sh1.cell_value(rows, 0)
+                answer = input("答案:")
+                if keys == answer:
+                    print("正确")
+                    rows += 1
+                else:
+                    wrong.append(rows)
+                    answer = input("错误,请再试一次：")
+                    while answer != keys:
+                        answer = input("错误,请再试一次：")
+                    print("正确")
+                    rows += 1
+
     print("单词全部默写完啦！")
     print("\n\n")
     time.sleep(1)
     main()
 
-
 def zhtoen():
     wb = xlrd.open_workbook("words.xlsx")
     sh1 = wb.sheet_by_name("词组")
+    # 创建错题数组
+    wrong = []
 
     print("1.正序\n2.随机")
     choose = input("请选择:")
@@ -93,11 +137,33 @@ def zhtoen():
                 print("正确")
                 rows += 1
             else:
+                wrong.append(rows)
                 answer = input("错误,请再试一次：")
                 while answer != keys:
                     answer = input("错误,请再试一次：")
                 print("正确")
                 rows += 1
+        if len(wrong) != 0:
+            # 错题订正
+            count = 1
+            while count <= len(wrong):
+                rows = wrong[count]
+                title = sh1.cell_value(rows, 1)
+                print("词组:" + title)
+                keys = sh1.cell_value(rows, 0)
+                answer = input("答案:")
+                if keys == answer:
+                    print("正确")
+                    rows += 1
+                else:
+                    wrong.append(rows)
+                    answer = input("错误,请再试一次：")
+                    while answer != keys:
+                        answer = input("错误,请再试一次：")
+                    print("正确")
+                    rows += 1
+
+
     else:
         serial = []
         count = 0
@@ -116,11 +182,33 @@ def zhtoen():
                 print("正确")
                 count += 1
             else:
+                wrong.append(title)
                 answer = input("错误,请再试一次：")
                 while answer != keys:
                     answer = input("错误,请再试一次：")
                 print("正确")
                 count += 1
+
+        if len(wrong) != 0:
+            # 错题订正
+            count = 1
+            while count <= len(wrong):
+                rows = wrong[count]
+                title = sh1.cell_value(rows, 1)
+                print("词组:" + title)
+                keys = sh1.cell_value(rows, 0)
+                answer = input("答案:")
+                if keys == answer:
+                    print("正确")
+                    rows += 1
+                else:
+                    wrong.append(rows)
+                    answer = input("错误,请再试一次：")
+                    while answer != keys:
+                        answer = input("错误,请再试一次：")
+                    print("正确")
+                    rows += 1
+
     print("单词全部默写完啦！")
     print("\n\n")
     time.sleep(1)
