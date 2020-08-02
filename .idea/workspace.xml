@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c1063c8-67ba-44fa-94e2-fb326aedc2d9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f5915SVjFdJfLqnSbCnFh9DwoC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="entozh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="words" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/entozh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="words" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="words" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="write_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="words" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\Code\Software Development\projects\words\write_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.entozh" />
+        <item itemvalue="Python.read_demo" />
+        <item itemvalue="Python.write_demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c1063c8-67ba-44fa-94e2-fb326aedc2d9" name="Default Changelist" comment="" />
+      <created>1595496867889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595496867889</updated>
+      <workItem from="1595496878544" duration="9201000" />
+      <workItem from="1595557797496" duration="1295000" />
+      <workItem from="1595640802020" duration="2043000" />
+      <workItem from="1595730807800" duration="749000" />
+      <workItem from="1595830182231" duration="4342000" />
+      <workItem from="1595904413273" duration="1889000" />
+      <workItem from="1596179231140" duration="281000" />
+      <workItem from="1596340405295" duration="4641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2005" height="954" key="GridCell.Tab.0.bottom" timestamp="1596345067856">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="954" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596345067856" />
+    <state width="2005" height="993" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1595840806611" />
+    <state width="2005" height="954" key="GridCell.Tab.0.center" timestamp="1596345067856">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="954" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596345067856" />
+    <state width="2005" height="993" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1595840806611" />
+    <state width="2005" height="954" key="GridCell.Tab.0.left" timestamp="1596345067856">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="954" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596345067856" />
+    <state width="2005" height="993" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1595840806611" />
+    <state width="2005" height="954" key="GridCell.Tab.0.right" timestamp="1596345067856">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="954" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596345067856" />
+    <state width="2005" height="993" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1595840806611" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1596344102124">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596344102124" />
+    <state width="2005" height="392" key="GridCell.Tab.1.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1595509573015" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1596344102124">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596344102124" />
+    <state width="2005" height="392" key="GridCell.Tab.1.center/0.0.2048.1152@0.0.2048.1152" timestamp="1595509573015" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1596344102124">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596344102124" />
+    <state width="2005" height="392" key="GridCell.Tab.1.left/0.0.2048.1152@0.0.2048.1152" timestamp="1595509573015" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1596344102124">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596344102124" />
+    <state width="2005" height="392" key="GridCell.Tab.1.right/0.0.2048.1152@0.0.2048.1152" timestamp="1595509573015" />
+    <state x="512" y="240" key="SettingsEditor" timestamp="1595558114448">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="512" y="240" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1595558114448" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1596344496247">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1596344496247" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/words$read_demo.coverage" NAME="read_demo Coverage Results" MODIFIED="1595497955095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/words$entozh.coverage" NAME="entozh Coverage Results" MODIFIED="1595831070170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/words$main.coverage" NAME="main Coverage Results" MODIFIED="1596345051670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
