@@ -26,13 +26,13 @@ def entozh():
     # 创建错题数组
     wrong = []
 
-    print("1.正序\n2.随机")
+    print("1.正序\n2.随机\n3.返回\n")
     choose = input("请选择:")
     if choose == "1":
-        row = 1
+        row = 0
         while row < sh1.nrows:
             title = sh1.cell_value(row, 0)
-            print("词组:" + title)
+            print("(" + str(row+1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
             key = sh1.cell_value(row, 1)
             key = key.split('；')
             answer = input("答案:")
@@ -66,20 +66,26 @@ def entozh():
                     print("正确")
                     rows += 1
 
+    elif choose == "3":
+        main()
+
     else:
+        '''
         serial = []
         count = 0
         # 生成随机题号数组
         while count < sh1.nrows:
             serial.append(random.randint(1, sh1.nrows))
             count = count + 1
+        '''
+        serial = random.sample(range(0, sh1.nrows+1), sh1.nrows)
 
         count = 0
         while count < sh1.nrows:
             # 把随机题号读取到row中
             row = serial[count]
             title = sh1.cell_value(row, 0)
-            print("词组:" + title)
+            print("(" + str(count+1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
             key = sh1.cell_value(row, 1)
             key = key.split('；')
             answer = input("答案:")
@@ -124,13 +130,13 @@ def zhtoen():
     # 创建错题数组
     wrong = []
 
-    print("1.正序\n2.随机")
+    print("1.正序\n2.随机\n3.返回\n")
     choose = input("请选择:")
     if choose == "1":
-        rows = 1
+        rows = 0
         while rows < sh1.nrows:
             title = sh1.cell_value(rows, 1)
-            print("词组:" + title)
+            print("(" + str(rows+1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
             keys = sh1.cell_value(rows, 0)
             answer = input("答案:")
             if keys == answer:
@@ -163,19 +169,24 @@ def zhtoen():
                     print("正确")
                     rows += 1
 
+    elif choose == "3":
+        main()
 
     else:
+        '''
         serial = []
         count = 0
         while count < sh1.nrows:
             serial.append(random.randint(1, sh1.nrows))
             count = count + 1
+        '''
+        serial = random.sample(range(0, sh1.nrows+1), sh1.nrows)
 
         count = 0
         while count < sh1.nrows:
             row = serial[count]
             title = sh1.cell_value(row, 1)
-            print("词组:" + title)
+            print("(" + str(count+1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
             keys = sh1.cell_value(row, 0)
             answer = input("答案:")
             if keys == answer:
@@ -244,15 +255,17 @@ def main():
     """
     # print("+----------------------+")
     print("欢迎使用")
-    print("1.英译中\n2.中译英\n3.打卡(bug)\n4.混合模式(先挖个坑)")
+    print("1.英译中\n2.中译英\n3.打卡(bug)\n4.混合模式(先挖个坑)\n5.退出程序\n")
     # print("+----------------------+")
     choose = input("请选择：")
     if choose == "1":
         entozh()
     elif choose == "2":
         zhtoen()
-    elif choose == '3':
+    elif choose == "3":
         signin()
+    elif choose == "5":
+        exit()
 
 
 # 调用部分
