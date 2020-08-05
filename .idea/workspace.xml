@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c1063c8-67ba-44fa-94e2-fb326aedc2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9c1063c8-67ba-44fa-94e2-fb326aedc2d9" name="Default Changelist" comment="fixed issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/warn-main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/xref-main.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/words.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/dist/words.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1f5915SVjFdJfLqnSbCnFh9DwoC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -151,62 +163,93 @@
       <workItem from="1595830182231" duration="4342000" />
       <workItem from="1595904413273" duration="1889000" />
       <workItem from="1596179231140" duration="281000" />
-      <workItem from="1596340405295" duration="6227000" />
+      <workItem from="1596340405295" duration="8029000" />
+      <workItem from="1596604634065" duration="2287000" />
+      <workItem from="1596613667713" duration="1089000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1596346899268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596346899268</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed issues">
+      <created>1596612650165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596612650165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <MESSAGE value="fixed issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed issues" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="2005" height="954" key="GridCell.Tab.0.bottom" timestamp="1596345067856">
+    <state x="628" y="142" key="CommitChangelistDialog2" timestamp="1596612679204">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="954" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596345067856" />
+    <state x="628" y="142" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1596612679204" />
+    <state width="2005" height="954" key="GridCell.Tab.0.bottom" timestamp="1596614259425">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="954" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596614259425" />
     <state width="2005" height="993" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1595840806611" />
-    <state width="2005" height="954" key="GridCell.Tab.0.center" timestamp="1596345067856">
+    <state width="2005" height="954" key="GridCell.Tab.0.center" timestamp="1596614259425">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="954" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596345067856" />
+    <state width="2005" height="954" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596614259425" />
     <state width="2005" height="993" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1595840806611" />
-    <state width="2005" height="954" key="GridCell.Tab.0.left" timestamp="1596345067856">
+    <state width="2005" height="954" key="GridCell.Tab.0.left" timestamp="1596614259425">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="954" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596345067856" />
+    <state width="2005" height="954" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596614259425" />
     <state width="2005" height="993" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1595840806611" />
-    <state width="2005" height="954" key="GridCell.Tab.0.right" timestamp="1596345067856">
+    <state width="2005" height="954" key="GridCell.Tab.0.right" timestamp="1596614259425">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="954" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596345067856" />
+    <state width="2005" height="954" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596614259425" />
     <state width="2005" height="993" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1595840806611" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1596344102124">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1596613622359">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596344102124" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596613622359" />
     <state width="2005" height="392" key="GridCell.Tab.1.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1595509573015" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1596344102124">
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1596613622359">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596344102124" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596613622359" />
     <state width="2005" height="392" key="GridCell.Tab.1.center/0.0.2048.1152@0.0.2048.1152" timestamp="1595509573015" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1596344102124">
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1596613622359">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596344102124" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596613622359" />
     <state width="2005" height="392" key="GridCell.Tab.1.left/0.0.2048.1152@0.0.2048.1152" timestamp="1595509573015" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1596344102124">
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1596613622359">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596344102124" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596613622359" />
     <state width="2005" height="392" key="GridCell.Tab.1.right/0.0.2048.1152@0.0.2048.1152" timestamp="1595509573015" />
     <state x="512" y="240" key="SettingsEditor" timestamp="1595558114448">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="512" y="240" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1595558114448" />
-    <state x="818" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596346885695">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1596346901461">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="818" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1596346885695" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1596346901461" />
+    <state x="818" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596612663398">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="818" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1596612663398" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1596344496247">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -215,6 +258,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/words$read_demo.coverage" NAME="read_demo Coverage Results" MODIFIED="1595497955095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/words$entozh.coverage" NAME="entozh Coverage Results" MODIFIED="1595831070170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/words$main.coverage" NAME="main Coverage Results" MODIFIED="1596345051670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/words$main.coverage" NAME="main Coverage Results" MODIFIED="1596614239236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

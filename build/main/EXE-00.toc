@@ -2,7 +2,7 @@
  True,
  False,
  False,
- 's.ico',
+ None,
  None,
  False,
  False,
@@ -34,6 +34,9 @@
   ('main',
    'F:\\Code\\Software Development\\projects\\words\\main.py',
    'PYSOURCE'),
+  ('select',
+   'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\select.pyd',
+   'EXTENSION'),
   ('_socket',
    'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\_socket.pyd',
    'EXTENSION'),
@@ -43,17 +46,14 @@
   ('_bz2',
    'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\_bz2.pyd',
    'EXTENSION'),
-  ('select',
-   'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\select.pyd',
-   'EXTENSION'),
-  ('_hashlib',
-   'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\_hashlib.pyd',
-   'EXTENSION'),
   ('_ssl',
    'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\_ssl.pyd',
    'EXTENSION'),
   ('unicodedata',
    'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
   ('pyexpat',
    'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\pyexpat.pyd',
@@ -71,12 +71,12 @@
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
+  ('python37.dll',
+   'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\python37.dll',
+   'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-string-l1-1-0.dll',
-   'BINARY'),
-  ('python37.dll',
-   'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\python37.dll',
    'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program '
@@ -96,21 +96,21 @@
   ('libssl-1_1.dll',
    'C:\\Users\\megumi\\AppData\\Local\\Programs\\Python\\Python37\\DLLs\\libssl-1_1.dll',
    'BINARY'),
-  ('api-ms-win-crt-utility-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
+  ('api-ms-win-crt-utility-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
   ('ucrtbase.dll',
    'C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin\\ucrtbase.dll',
@@ -131,105 +131,105 @@
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-console-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-memory-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-profile-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-profile-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
+  ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk1.8.0_241\\jre\\bin\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
   ('base_library.zip',
    'F:\\Code\\Software '
@@ -243,7 +243,7 @@
  [],
  False,
  False,
- 1595906352,
+ 1596614297,
  [('run.exe',
    'f:\\code\\software '
    'development\\projects\\words\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
