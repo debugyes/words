@@ -36,6 +36,8 @@ def entozh():
             key = sh1.cell_value(row, 1)
             key = key.split('；')
             answer = input("答案:")
+            while answer == '\n':
+                answer = input("答案:")
             if answer.strip() in key:
                 print("正确")
                 row += 1
@@ -51,9 +53,9 @@ def entozh():
             count = 1
             while count <= len(wrong):
                 rows = wrong[count]
-                title = sh1.cell_value(rows, 1)
+                title = sh1.cell_value(str(rows), 1)
                 print("词组:" + title)
-                keys = sh1.cell_value(rows, 0)
+                keys = sh1.cell_value(str(rows), 0)
                 answer = input("答案:")
                 if keys == answer:
                     print("正确")
@@ -78,7 +80,7 @@ def entozh():
             serial.append(random.randint(1, sh1.nrows))
             count = count + 1
         '''
-        serial = random.sample(range(0, sh1.nrows+1), sh1.nrows)
+        serial = random.sample(range(0, sh1.nrows), sh1.nrows)
 
         count = 0
         while count < sh1.nrows:
@@ -89,6 +91,8 @@ def entozh():
             key = sh1.cell_value(row, 1)
             key = key.split('；')
             answer = input("答案:")
+            while answer == '\n':
+                answer = input("答案:")
             if answer in key:
                 print("正确")
                 count += 1
@@ -104,9 +108,9 @@ def entozh():
             count = 1
             while count <= len(wrong):
                 rows = wrong[count]
-                title = sh1.cell_value(rows, 1)
+                title = sh1.cell_value(str(rows), 1)
                 print("词组:" + title)
-                keys = sh1.cell_value(rows, 0)
+                keys = sh1.cell_value(str(rows), 0)
                 answer = input("答案:")
                 if keys == answer:
                     print("正确")
@@ -139,6 +143,8 @@ def zhtoen():
             print("(" + str(rows+1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
             keys = sh1.cell_value(rows, 0)
             answer = input("答案:")
+            while answer == '\n':
+                answer = input("答案:")
             if keys == answer:
                 print("正确")
                 rows += 1
@@ -154,9 +160,9 @@ def zhtoen():
             count = 1
             while count <= len(wrong):
                 rows = wrong[count]
-                title = sh1.cell_value(rows, 1)
+                title = sh1.cell_value(str(rows), 1)
                 print("词组:" + title)
-                keys = sh1.cell_value(rows, 0)
+                keys = sh1.cell_value(str(rows), 0)
                 answer = input("答案:")
                 if keys == answer:
                     print("正确")
@@ -180,7 +186,7 @@ def zhtoen():
             serial.append(random.randint(1, sh1.nrows))
             count = count + 1
         '''
-        serial = random.sample(range(0, sh1.nrows+1), sh1.nrows)
+        serial = random.sample(range(0, sh1.nrows), sh1.nrows)
 
         count = 0
         while count < sh1.nrows:
@@ -189,6 +195,8 @@ def zhtoen():
             print("(" + str(count+1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
             keys = sh1.cell_value(row, 0)
             answer = input("答案:")
+            while answer == '\n':
+                answer = input("答案:")
             if keys == answer:
                 print("正确")
                 count += 1
@@ -202,12 +210,12 @@ def zhtoen():
 
         if len(wrong) != 0:
             # 错题订正
-            count = 1
-            while count <= len(wrong):
+            count = 0
+            while count < len(wrong):
                 rows = wrong[count]
-                title = sh1.cell_value(rows, 1)
+                title = sh1.cell_value(int(rows), 1)
                 print("词组:" + title)
-                keys = sh1.cell_value(rows, 0)
+                keys = sh1.cell_value(int(rows), 0)
                 answer = input("答案:")
                 if keys == answer:
                     print("正确")
@@ -253,11 +261,14 @@ def main():
     print("+----------------------+")
     :return:
     """
+
+
     print("+-----------------------+")
     print("|       Welcome         |")
     print("+-----------------------+")
     print("|1.英译中\n|2.中译英\n|3.打卡\n|4.混合模式\n|5.退出程序")
     print("+-----------------------+")
+
     choose = input("请选择：")
     if choose == "1":
         entozh()
