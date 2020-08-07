@@ -48,6 +48,7 @@ def entozh():
                     answer = input("错误,请再试一次：")
                 print("正确")
                 row += 1
+        """
         if len(wrong) != 0:
             # 错题订正
             count = 1
@@ -67,6 +68,7 @@ def entozh():
                         answer = input("错误,请再试一次：")
                     print("正确")
                     rows += 1
+        """
 
     elif choose == "3":
         main()
@@ -103,6 +105,8 @@ def entozh():
                     answer = input("错误,请再试一次：")
                 print("正确")
                 count += 1
+
+        """
         if len(wrong) != 0:
             # 错题订正
             count = 1
@@ -122,7 +126,7 @@ def entozh():
                         answer = input("错误,请再试一次：")
                     print("正确")
                     rows += 1
-
+        """
     print("单词全部默写完啦！")
     print("\n\n")
     time.sleep(1)
@@ -155,6 +159,7 @@ def zhtoen():
                     answer = input("错误,请再试一次：")
                 print("正确")
                 rows += 1
+        """
         if len(wrong) != 0:
             # 错题订正
             count = 1
@@ -174,7 +179,7 @@ def zhtoen():
                         answer = input("错误,请再试一次：")
                     print("正确")
                     rows += 1
-
+        """
     elif choose == "3":
         main()
 
@@ -207,7 +212,7 @@ def zhtoen():
                     answer = input("错误,请再试一次：")
                 print("正确")
                 count += 1
-
+        """
         if len(wrong) != 0:
             # 错题订正
             count = 0
@@ -227,6 +232,7 @@ def zhtoen():
                         answer = input("错误,请再试一次：")
                     print("正确")
                     rows += 1
+        """
 
     print("单词全部默写完啦！")
     print("\n\n")
