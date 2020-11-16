@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c1063c8-67ba-44fa-94e2-fb326aedc2d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/words.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/words.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +164,7 @@
       <workItem from="1596941823629" duration="627000" />
       <workItem from="1597054193474" duration="695000" />
       <workItem from="1597311817823" duration="711000" />
+      <workItem from="1600252067847" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1596346899268</created>
@@ -202,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596856823910</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1600252124117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600252124117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,19 +209,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update" />
     <MESSAGE value="fixed issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issues" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="764" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600252080467">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="764" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1600252080467" />
-    <state x="628" y="142" key="CommitChangelistDialog2" timestamp="1596856822797">
+    <state x="628" y="142" key="CommitChangelistDialog2" timestamp="1600252120018">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="142" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1596856822797" />
+    <state x="628" y="142" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1600252120018" />
     <state width="2005" height="954" key="GridCell.Tab.0.bottom" timestamp="1597055731824">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -268,10 +267,10 @@
     </state>
     <state x="512" y="232" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1596704836412" />
     <state x="512" y="240" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1595558114448" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1596856840953">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1600252127808">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1596856840953" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1600252127808" />
     <state x="818" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596612663398">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
