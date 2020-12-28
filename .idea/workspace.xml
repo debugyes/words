@@ -19,17 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="26ba1874-3ce9-4475-9e13-d4e3b9099105" />
   <component name="ProjectId" id="1f5915SVjFdJfLqnSbCnFh9DwoC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -135,6 +136,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,7 +166,11 @@
       <workItem from="1596941823629" duration="627000" />
       <workItem from="1597054193474" duration="695000" />
       <workItem from="1597311817823" duration="711000" />
+<<<<<<< HEAD
       <workItem from="1600252067847" duration="660000" />
+=======
+      <workItem from="1606722675883" duration="756000" />
+>>>>>>> fc734bab174c1966f61c20e8eb939c98e446444b
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1596346899268</created>
@@ -205,7 +211,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -218,6 +224,7 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="764" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1600252080467" />
+<<<<<<< HEAD
     <state x="628" y="142" key="CommitChangelistDialog2" timestamp="1600252120018">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -279,10 +286,20 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1596344496247" />
+=======
+    <state x="182" y="229" key="FileChooserDialogImpl" timestamp="1606744514115">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="182" y="229" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606744514115" />
+    <state x="192" y="23" key="SettingsEditor" timestamp="1606744595720">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="192" y="23" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1606744595720" />
+>>>>>>> fc734bab174c1966f61c20e8eb939c98e446444b
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/words$read_demo.coverage" NAME="read_demo Coverage Results" MODIFIED="1595497955095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/words$entozh.coverage" NAME="entozh Coverage Results" MODIFIED="1595831070170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/words$main.coverage" NAME="main Coverage Results" MODIFIED="1597054232990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/words$entozh.coverage" NAME="entozh Coverage Results" MODIFIED="1595831070170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
