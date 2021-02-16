@@ -168,14 +168,14 @@ def viewmode():
         title = sh1.cell_value(row, 0)
         print("(" + str(row + 1) + '/' + str(sh1.nrows) + ")" + "词组:" + title+'\t'+sh1.cell_value(row, 1)+'\n')
         row += 1
-        time.sleep(5)
+        time.sleep(3)
 
 # 主界面函数
 def main():
     print("+-----------------------+")
     print("|       Welcome         |")
     print("+-----------------------+")
-    print("|1.英译中\n|2.中译英\n|3.打卡\n|4.退出程序")
+    print("|1.英译中\n|2.中译英\n|3.打卡\n|4.背诵模式\n|6.退出程序")
     print("+-----------------------+")
 
     choose = input("请选择：")
@@ -191,7 +191,7 @@ def main():
         exit()
 
 
-# 调用部分
-main()
+if __name__ == '__main__':
+    main()
 
 
