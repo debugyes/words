@@ -1,3 +1,4 @@
+# 重构
 import xlrd
 import time
 import random
@@ -24,17 +25,22 @@ def entozh():
         entozh_function(random.sample(range(0, sh1.nrows), sh1.nrows))
     else:
         main()
+        
     print("单词全部默写完啦！")
     print("\n\n")
+
+    piece = int(piece)
 
     # 打开配置文件
     file = open("config_entozh.txt", "w")
     # 如果配置文件序号越界置1
-    if int(piece) + 1 <= len(wb.sheets()):
-        piece = str(int(piece) + 1)
+    if piece < len(wb.sheets()):
+        piece = piece+1
     else:
         piece = 1
-    file.write(piece)
+    file.write('%d' % piece)
+    print(piece)
+    file.close()
 
     time.sleep(1)
     main()
