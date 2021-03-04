@@ -5,7 +5,7 @@ import datetime
 
 
 # 英译中模式
-def entozh():
+def groupentozh():
     # 初始化目标工作簿
     wb = xlrd.open_workbook("words.xlsx")
     # 读出要默写哪一份
@@ -64,7 +64,6 @@ def entozh():
     print("单词全部默写完啦！")
     print("\n\n")
 
-    print(type(piece))
     # 打开配置文件
     file = open("config_entozh.txt", "w")
     piece = int(piece)
@@ -79,9 +78,8 @@ def entozh():
     time.sleep(1)
     main()
 
-
 # 中译英模式
-def zhtoen():
+def groupzhtoen():
     wb = xlrd.open_workbook("words.xlsx")
     # 读出要默写哪一份
     file = open("config_zhtoen.txt")
@@ -153,9 +151,10 @@ def zhtoen():
     time.sleep(1)
     main()
 
+
 def clockin():
     now = datetime.datetime.now()
-    file = open("clockin.ext", "a+")
+    file = open("checkin.txt", "a+")
     file.write(str(now)+'\n')
 
 def viewmode():
@@ -180,17 +179,19 @@ def main():
     print("+-----------------------+")
     print("|       Welcome         |")
     print("+-----------------------+")
-    print("|1.英译中\n|2.中译英\n|3.打卡\n|4.背诵模式\n|6.退出程序")
+    print("|1.词组英译中\n|2.词组中译英\n|3.单词英译中\n|4.单词中译英\n|5.打卡\n|6.背诵模式\n|7.退出程序")
     print("+-----------------------+")
 
     choose = input("请选择：")
     if choose == "1":
-        entozh()
+        groupentozh()
     elif choose == "2":
-        zhtoen()
+        groupzhtoen()
     elif choose == "3":
+
+    elif choose == "5":
         clockin()
-    elif choose == "4":
+    elif choose == "6":
         viewmode()
     else:
         exit()
