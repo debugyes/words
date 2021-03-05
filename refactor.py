@@ -77,7 +77,7 @@ def groupentozh_function(indexes):
 # 词组中译英模式
 def groupzhtoen():
     # 初始化目标工作簿
-    wb = xlrd.open_workbook("group.xlsxsx")
+    wb = xlrd.open_workbook("group.xlsx")
     # 读出要默写哪一份
     file = open("group_config_zhtoen.txt")
     piece = file.read()
@@ -226,9 +226,9 @@ def wordentozh():
     choose = input("请选择:")
     if choose == "1":
         indexs = list(range(0, sh1.nrows))  # 生成顺序数列
-        groupentozh_function(indexs)
+        wordentozh_function(indexs)
     elif choose == "2":
-        groupentozh_function(random.sample(range(0, sh1.nrows), sh1.nrows))  # 生成随机数列
+        wordentozh_function(random.sample(range(0, sh1.nrows), sh1.nrows))  # 生成随机数列
     else:
         main()  # 返回主菜单
 
@@ -294,7 +294,7 @@ def checkin():
 # 学习模式
 def viewmode():
     # 初始化目标工作簿
-    wb = xlrd.open_workbook("group.xlsxsx")
+    wb = xlrd.open_workbook("group.xlsx")
     # 读出要默写哪一份
     file = open("group_config_entozh.txt")
     piece = file.read()
@@ -334,5 +334,8 @@ def main():
     else:
         exit()
 
+
 if __name__ == '__main__':
     main()
+
+
