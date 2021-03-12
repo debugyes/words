@@ -57,15 +57,24 @@ def groupentozh_function(indexes):
     # 开始默写
     sh1 = wb.sheet_by_name(piece)
 
+    lines = 1
+
     for row in indexes:
         title = sh1.cell_value(row, 0)
-        print("(" + str(row + 1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
+        print("(" + str(lines) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
+        lines += 1
         key = sh1.cell_value(row, 1)
         key = key.split('；')
         answer = input("答案:")
         while answer == '\n':
             answer = input("答案:")
         if answer.strip() in key:
+            print("正确")
+        elif answer == '!':
+            print(key)
+            answer = input("错误,请再试一次：")
+            while answer.strip() not in key:
+                answer = input("错误,请再试一次：")
             print("正确")
         else:
             answer = input("错误,请再试一次：")
@@ -123,15 +132,24 @@ def groupzhtoen_funtion(indexes):
     # 开始默写
     sh1 = wb.sheet_by_name(piece)
 
+    lines = 1
+
     for row in indexes:
         title = sh1.cell_value(row, 1)
-        print("(" + str(row + 1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
+        print("(" + str(lines) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
+        lines += 1
         key = sh1.cell_value(row, 0)
         key = key.split('；')
         answer = input("答案:")
         while answer == '\n':
             answer = input("答案:")
         if answer.strip() in key:
+            print("正确")
+        elif answer == '!':
+            print(key)
+            answer = input("错误,请再试一次：")
+            while answer.strip() not in key:
+                answer = input("错误,请再试一次：")
             print("正确")
         else:
             answer = input("错误,请再试一次：")
@@ -193,15 +211,24 @@ def wordzhtoen_function(indexes):
     # 开始默写
     sh1 = wb.sheet_by_name(piece)
 
+    lines = 1
+
     for row in indexes:
-        title = sh1.cell_value(row, 1)
-        print("(" + str(row + 1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
-        key = sh1.cell_value(row, 0)
+        title = sh1.cell_value(row, 0)
+        print("(" + str(lines) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
+        lines += 1
+        key = sh1.cell_value(row, 1)
         key = key.split('；')
         answer = input("答案:")
         while answer == '\n':
             answer = input("答案:")
         if answer.strip() in key:
+            print("正确")
+        elif answer == '!':
+            print(key)
+            answer = input("错误,请再试一次：")
+            while answer.strip() not in key:
+                answer = input("错误,请再试一次：")
             print("正确")
         else:
             answer = input("错误,请再试一次：")
@@ -263,15 +290,24 @@ def wordentozh_function(indexes):
     # 开始默写
     sh1 = wb.sheet_by_name(piece)
 
+    lines = 1
+
     for row in indexes:
         title = sh1.cell_value(row, 1)
-        print("(" + str(row + 1) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
+        print("(" + str(lines) + '/' + str(sh1.nrows) + ")" + "词组:" + title)
+        lines += 1
         key = sh1.cell_value(row, 0)
         key = key.split('；')
         answer = input("答案:")
         while answer == '\n':
             answer = input("答案:")
         if answer.strip() in key:
+            print("正确")
+        elif answer == '!':
+            print(key)
+            answer = input("错误,请再试一次：")
+            while answer.strip() not in key:
+                answer = input("错误,请再试一次：")
             print("正确")
         else:
             answer = input("错误,请再试一次：")
