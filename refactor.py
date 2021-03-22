@@ -35,10 +35,7 @@ def groupentozh():
     file = open("group_config_entozh.txt", "w")
     piece = int(piece)
     # 如果配置文件序号越界置1
-    if piece < len(wb.sheets()):
-        piece = piece + 1
-    else:
-        piece = 1
+    piece = piece + 1
     file.write('%d' % piece)
     file.close()
 
@@ -110,10 +107,7 @@ def groupzhtoen():
     file = open("group_config_zhtoen.txt", "w")
     piece = int(piece)
     # 如果配置文件序号越界置1
-    if piece < len(wb.sheets()):
-        piece = piece + 1
-    else:
-        piece = 1
+    piece = piece + 1
     file.write('%d' % piece)
     file.close()
 
@@ -188,10 +182,7 @@ def wordzhtoen():
     file = open("word_config_zhtoen.txt", "w")
     piece = int(piece)
     # 如果配置文件序号越界置1
-    if piece < len(wb.sheets()):
-        piece = piece + 1
-    else:
-        piece = 1
+    piece = piece + 1
     file.write('%d' % piece)
     file.close()
 
@@ -268,10 +259,7 @@ def wordentozh():
     file = open("word_config_entozh.txt", "w")
     piece = int(piece)
     # 如果配置文件序号越界置1
-    if piece < len(wb.sheets()):
-        piece = piece + 1
-    else:
-        piece = 1
+    piece = piece + 1
     file.write('%d' % piece)
     file.close()
 
